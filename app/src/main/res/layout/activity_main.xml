@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jkevin.toastutils.MainActivity">
+
+    <Button
+        android:id="@+id/btn_one"
+        style="@style/style_btn"
+        android:text="One"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_two"
+        style="@style/style_btn"
+        android:background="@drawable/bg_shape_btn_blue"
+        android:text="Two"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_three"
+        style="@style/style_btn"
+        android:text="Three"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_four"
+        style="@style/style_btn"
+        android:background="@drawable/bg_shape_btn_brown"
+        android:text="Four"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>
